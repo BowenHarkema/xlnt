@@ -14,7 +14,7 @@ if(STATIC_CRT)
 endif()
 
 set(LIBSTUDXML
-  ${LIBSTUDXML_ROOT_DIR}/libstudxml/parser.cxx
+  ${LIBSTUDXML_ROOT_DIR}/parser.cxx
   ${LIBSTUDXML_ROOT_DIR}/libstudxml/qname.cxx
   ${LIBSTUDXML_ROOT_DIR}/libstudxml/serializer.cxx
   ${LIBSTUDXML_ROOT_DIR}/libstudxml/value-traits.cxx
